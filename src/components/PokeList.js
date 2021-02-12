@@ -5,7 +5,7 @@ export default class PokeList extends Component {
     render() {
         const filteredList = this.props.filteredList;
         return (
-            <div>
+            <div className="pokeContainer">
                 {filteredList.map(listItem => <PokeItem thisPokemon={listItem} />)}
             </div>
         )
