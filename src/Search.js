@@ -62,8 +62,10 @@ export default class Search extends Component {
 
 
         return (
-            <div>
+            <div className="main">
                 <section className="sidebar">
+                    <h2>PokeSearch</h2>
+                    <label for={this.state.search}> Search </label>
                     <input value={this.state.search} onChange={this.handleSearchChange} />
                     <Dropdown filterList={['ascending', 'descending']} handleChange={this.handleFilterDirection} keyName="Sort Direction" />
                     <Dropdown filterList={this.state.listOfFilters} handleChange={this.handleFilterChange} keyName="Sort By" />
