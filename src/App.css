@@ -55,7 +55,9 @@ label {
 }
 input {
   margin-bottom: 20px;
+  font-size: 18px;
 }
 select {
   margin-bottom: 20px;
+  font-size: 18px;
 }
