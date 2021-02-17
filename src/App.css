@@ -61,3 +61,12 @@ select {
   margin-bottom: 20px;
   font-size: 18px;
 }
+.pokeDisplay {
+  text-align: center;
+}
+.pages {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
