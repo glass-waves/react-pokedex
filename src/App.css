@@ -35,7 +35,7 @@ nav {
 }
 .main {
   display: grid;
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 2fr 6fr;
   background-color: #0E4749;
   height: 100vh;
 }
@@ -48,6 +48,7 @@ nav a:hover {
 .sidebar {
   background-color: #95C623;
   padding: 10px;
+  padding-left: 10%;
 }
 label {
   margin-top: 20px;
@@ -60,4 +61,13 @@ input {
 select {
   margin-bottom: 20px;
   font-size: 18px;
+}
+.pokeDisplay {
+  text-align: center;
+}
+.pages {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+
 }
