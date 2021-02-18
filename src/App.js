@@ -10,6 +10,7 @@ import Search from './Search.js';
 import Home from './Home.js';
 
 import React, { Component } from 'react'
+import DetailPage from './DetailPage';
 
 export default class App extends Component {
     render() {
@@ -28,6 +29,12 @@ export default class App extends Component {
                             path="/search"
                             exact
                             render={(routerProps) => <Search {...routerProps} />}
+                        />
+
+                        <Route
+                            path="/:pokemonID"
+                            exact
+                            render={(routerProps) => <DetailPage {...routerProps} />}
                         />
                     </Switch>
                 </Router>
