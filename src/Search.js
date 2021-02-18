@@ -75,7 +75,7 @@ export default class Search extends Component {
         if (this.state.page === this.state.totalPages) {
             return;
         } else {
-            await this.setState({
+           await this.setState({
                 page: (this.state.page + 1)
             })
         }

@@ -71,3 +71,29 @@ select {
   font-weight: 600;
 
 }
+.detailBox {
+  border: 10px solid;
+  width: 60%;
+  background-color: white;
+  text-align: center;
+  margin: 30px auto;
+}
+.detailBox img {
+  max-width: 90%;
+}
+.detailBox table {
+  text-align: left;
+  margin: 10px auto;
+  border: 2px solid black;
+  border-collapse:collapse;
+}
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+.boldTd {
+  font-weight: bold;;
+}
+a {
+  text-decoration: none;
+}
